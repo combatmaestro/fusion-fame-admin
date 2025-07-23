@@ -18,7 +18,7 @@ import {
 } from '@mui/material';
 import { getAllBookings, addBooking } from '../services/apiService';
 
-const timeSlots = ['7-8', '8-9', '9-10', '10-11'];
+const timeSlots = ['10-11' , '11-12', '12-1', '1-2', '2-3', '3-4', '4-5','5-6', '6-7', '7-8', '8-9', '9-10'];
 
 const BookingsTable = () => {
   const [bookings, setBookings] = useState([]);
